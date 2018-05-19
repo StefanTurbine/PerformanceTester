@@ -1,0 +1,20 @@
+{
+  "name": "performancetester",
+  "version": "1.0.0",
+  "description": "node.js-based performance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 120000 --max-old-space-size=4096 src/index.js"
+  },
+  "keywords": [
+    "node",
+    "testing",
+    "performance"
+  ],
+  "author": "Stefan Tübben",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "superagent": "^3.8.3"
+  }
+}
