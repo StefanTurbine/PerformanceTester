@@ -1,5 +1,5 @@
 'use strict';
 
-require('./performance.test').run();
 require('./network.test').run();
+require('./performance.test').run();
 require('./io.test').run();

@@ -1,45 +1,59 @@
-const assert = require('assert');
+'use strict';
 
-const sampleSizes = {
-    small: 1024,
-    mid: 1048576,
-    big: 8388608
-};
-
+const sampleSizes = [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576
+];
+const arrays = [];
 module.exports.run = function () {
-    describe("Array sorting", () => {
-        describe(`sample size: ${sampleSizes['small']} `, () => {
-            testArraySorting(sampleSizes['small'])
-        });
-        // describe(`sample size: ${sampleSizes['mid']} `, () => {
-        //     testArraySorting(sampleSizes['mid'])
-        // });
-        // describe(`sample size: ${sampleSizes['big']} `, () => {
-        //     testArraySorting(sampleSizes['big'])
-        // })
+    describe("sorting", () => {
+        for (const sampleSize of sampleSizes) {
+            describe(`${sampleSize}`, () => {
+                testArraySorting(sampleSize)
+            });
+        }
     });
 };
 
 
-function testArraySorting(arraySize){
-    it("sorts a random float array", () => {
-        const randomFloatArray = new Array(arraySize) // init array of size 'arraySize'
+function testArraySorting(arraySize) {
+    let floatArray;
+    let integerArray;
+    let stringArray;
+
+    it("createFloats", () => {
+        floatArray = new Array(arraySize) // init array of size 'arraySize'
             .fill() // filling the array with empty values
             .map(() => Math.random() * arraySize);
-        randomFloatArray.sort();
     });
-    it("sorts a random integer array", () => {
-        const randomFloatArray = new Array(arraySize) // init array of size 'arraySize'
+    it("createIntegers", () => {
+        integerArray = new Array(arraySize) // init array of size 'arraySize'
             .fill() // filling the array with empty values
             .map(() => parseInt(Math.random() * arraySize));
-        randomFloatArray.sort();
     });
-    it("sorts a random string array", () => {
-        const randomStringArray = new Array(arraySize)
-            .fill()
-            .map(() => generateRandomString())
-        ;
-        randomStringArray.sort();
+    it("createStrings", () => {
+        stringArray = new Array(arraySize) // init array of size 'arraySize'
+            .fill() // filling the array with empty values
+            .map(() => generateRandomString());
+    });
+
+    it("float", () => {
+        floatArray.sort();
+    });
+    it("integer", () => {
+        integerArray.sort();
+    });
+    it("string", () => {
+        stringArray.sort();
     })
 }
 
