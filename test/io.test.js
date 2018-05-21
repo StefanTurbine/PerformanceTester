@@ -27,6 +27,7 @@ module.exports.run = function () {
     let dummy_128MB;
     let dummy_256MB;
     let dummy_512MB;
+    let dummy_758MB;
 
     describe("init read", () => {
         it("32MB" , async () => {
@@ -47,6 +48,9 @@ module.exports.run = function () {
         it("512MB", () => {
             dummy_512MB = dummy_256MB + dummy_256MB;
         });
+        it("758MB", () => {
+            dummy_758MB = dummy_512MB + dummy_256MB;
+        })
     });
 
     describe("write", () => {
@@ -64,6 +68,9 @@ module.exports.run = function () {
         });
         it("512MB" , async () => {
             await promisifiedWriteFile(in512MB, dummy_512MB);
+        });
+        it("758MB" , async () => {
+            await promisifiedWriteFile(in758MB, dummy_758MB);
         });
     });
 
@@ -83,6 +90,9 @@ module.exports.run = function () {
         it("512MB" , async () => {
             await promisfiedCopyFile(in512MB, out512MB);
         });
+        it("758MB" , async () => {
+            await promisfiedCopyFile(in758MB, out758MB);
+        });
     });
 
     describe("read", () => {
@@ -100,6 +110,9 @@ module.exports.run = function () {
         });
         it("512MB" , async () => {
             await promisifiedReadFile(in512MB);
+        });
+        it("758MB" , async () => {
+            await promisifiedReadFile(in758MB);
         });
     });
 
@@ -128,6 +141,12 @@ module.exports.run = function () {
         it("512MB", async () => {
             await promisifiedUnlinkFile(out512MB);
         });
+        it("758MB", async () => {
+            await promisifiedUnlinkFile(in758MB);
+        });
+        it("758MB", async () => {
+            await promisifiedUnlinkFile(out758MB);
+        })
     })
 };
 
