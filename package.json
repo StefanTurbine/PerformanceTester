@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "local": "mocha test --recursive --timeout 120000 --max-old-space-size=4096",
-    "test": "mocha test --recursive -R JSON  --timeout 120000 --max-old-space-size=4096",
+    "test": "mocha test --recursive --timeout 120000 --max-old-space-size=4096",
     "start": "node src/index.js"
   },
   "keywords": [
