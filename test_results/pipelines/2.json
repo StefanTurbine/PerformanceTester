@@ -5,64 +5,64 @@
     "passes": 96,
     "pending": 0,
     "failures": 0,
-    "start": "2018-05-21T05:10:16.947Z",
-    "end": "2018-05-21T05:11:14.571Z",
-    "duration": 57624
+    "start": "2018-05-21T05:22:52.190Z",
+    "end": "2018-05-21T05:23:45.901Z",
+    "duration": 53711
   },
   "tests": [
     {
       "title": "32MB",
       "fullTitle": "download 32MB",
-      "duration": 406,
+      "duration": 805,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "download 64MB",
-      "duration": 669,
+      "duration": 1355,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 1024 createFloats",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 1024 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 1024 createStrings",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 1024 float",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 1024 integer",
-      "duration": 6,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 1024 string",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,35 +76,35 @@
     {
       "title": "createIntegers",
       "fullTitle": "sorting 2048 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 2048 createStrings",
-      "duration": 7,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 2048 float",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 2048 integer",
-      "duration": 6,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 2048 string",
-      "duration": 6,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -125,42 +125,42 @@
     {
       "title": "createStrings",
       "fullTitle": "sorting 4096 createStrings",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 4096 float",
-      "duration": 13,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 4096 integer",
-      "duration": 6,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 4096 string",
-      "duration": 18,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 8192 createFloats",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 8192 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -174,21 +174,21 @@
     {
       "title": "float",
       "fullTitle": "sorting 8192 float",
-      "duration": 27,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 8192 integer",
-      "duration": 8,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 8192 string",
-      "duration": 14,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
@@ -209,301 +209,301 @@
     {
       "title": "createStrings",
       "fullTitle": "sorting 16384 createStrings",
-      "duration": 16,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 16384 float",
-      "duration": 69,
+      "duration": 38,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 16384 integer",
-      "duration": 26,
+      "duration": 14,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 16384 string",
-      "duration": 38,
+      "duration": 21,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 32768 createFloats",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 32768 createIntegers",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 32768 createStrings",
-      "duration": 37,
+      "duration": 40,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 32768 float",
-      "duration": 114,
+      "duration": 92,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 32768 integer",
-      "duration": 36,
+      "duration": 37,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 32768 string",
-      "duration": 67,
+      "duration": 70,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 65536 createFloats",
-      "duration": 24,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 65536 createIntegers",
-      "duration": 20,
+      "duration": 18,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 65536 createStrings",
-      "duration": 86,
+      "duration": 65,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 65536 float",
-      "duration": 291,
+      "duration": 264,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 65536 integer",
-      "duration": 102,
+      "duration": 139,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 65536 string",
-      "duration": 125,
+      "duration": 98,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 131072 createFloats",
-      "duration": 33,
+      "duration": 27,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 131072 createIntegers",
-      "duration": 42,
+      "duration": 31,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 131072 createStrings",
-      "duration": 167,
+      "duration": 155,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 131072 float",
-      "duration": 805,
+      "duration": 562,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 131072 integer",
-      "duration": 192,
+      "duration": 165,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 131072 string",
-      "duration": 315,
+      "duration": 255,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 262144 createFloats",
-      "duration": 77,
+      "duration": 71,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 262144 createIntegers",
-      "duration": 120,
+      "duration": 59,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 262144 createStrings",
-      "duration": 301,
+      "duration": 287,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 262144 float",
-      "duration": 1538,
+      "duration": 1355,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 262144 integer",
-      "duration": 393,
+      "duration": 304,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 262144 string",
-      "duration": 622,
+      "duration": 532,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 524288 createFloats",
-      "duration": 135,
+      "duration": 129,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 524288 createIntegers",
-      "duration": 118,
+      "duration": 129,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 524288 createStrings",
-      "duration": 541,
+      "duration": 669,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 524288 float",
-      "duration": 3024,
+      "duration": 3693,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 524288 integer",
-      "duration": 713,
+      "duration": 639,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 524288 string",
-      "duration": 1737,
+      "duration": 1267,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 1048576 createFloats",
-      "duration": 330,
+      "duration": 227,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 1048576 createIntegers",
-      "duration": 322,
+      "duration": 239,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 1048576 createStrings",
-      "duration": 1348,
+      "duration": 1427,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 1048576 float",
-      "duration": 9608,
+      "duration": 9789,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 1048576 integer",
-      "duration": 2303,
+      "duration": 1925,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 1048576 string",
-      "duration": 3702,
+      "duration": 3115,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "init read 32MB",
-      "duration": 17,
+      "duration": 18,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "init read 64MB",
-      "duration": 64,
+      "duration": 68,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "create bigger variables 128MB",
-      "duration": 616,
+      "duration": 688,
       "currentRetry": 0,
       "err": {}
     },
@@ -524,70 +524,70 @@
     {
       "title": "32MB",
       "fullTitle": "write 32MB",
-      "duration": 33,
+      "duration": 27,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "write 64MB",
-      "duration": 58,
+      "duration": 47,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "write 128MB",
-      "duration": 1068,
+      "duration": 950,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "write 256MB",
-      "duration": 2211,
+      "duration": 1697,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "write 512MB",
-      "duration": 4641,
+      "duration": 3331,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "copy 32MB",
-      "duration": 856,
+      "duration": 591,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "copy 64MB",
-      "duration": 1280,
+      "duration": 1253,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "copy 128MB",
-      "duration": 443,
+      "duration": 246,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "copy 256MB",
-      "duration": 824,
+      "duration": 509,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "copy 512MB",
-      "duration": 3044,
+      "duration": 1872,
       "currentRetry": 0,
       "err": {}
     },
@@ -601,70 +601,70 @@
     {
       "title": "64MB",
       "fullTitle": "read 64MB",
-      "duration": 45,
+      "duration": 42,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "read 128MB",
-      "duration": 216,
+      "duration": 6470,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "read 256MB",
-      "duration": 8645,
+      "duration": 1209,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "read 512MB",
-      "duration": 2421,
+      "duration": 4123,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "delete 32MB",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "delete 64MB",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "delete 128MB",
-      "duration": 27,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "delete 128MB",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "delete 256MB",
-      "duration": 44,
+      "duration": 45,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "delete 256MB",
-      "duration": 44,
+      "duration": 33,
       "currentRetry": 0,
       "err": {}
     },
@@ -678,7 +678,7 @@
     {
       "title": "512MB",
       "fullTitle": "delete 512MB",
-      "duration": 112,
+      "duration": 98,
       "currentRetry": 0,
       "err": {}
     }
@@ -689,56 +689,56 @@
     {
       "title": "32MB",
       "fullTitle": "download 32MB",
-      "duration": 406,
+      "duration": 805,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "download 64MB",
-      "duration": 669,
+      "duration": 1355,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 1024 createFloats",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 1024 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 1024 createStrings",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 1024 float",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 1024 integer",
-      "duration": 6,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 1024 string",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -752,35 +752,35 @@
     {
       "title": "createIntegers",
       "fullTitle": "sorting 2048 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 2048 createStrings",
-      "duration": 7,
+      "duration": 8,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 2048 float",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 2048 integer",
-      "duration": 6,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 2048 string",
-      "duration": 6,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -801,42 +801,42 @@
     {
       "title": "createStrings",
       "fullTitle": "sorting 4096 createStrings",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 4096 float",
-      "duration": 13,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 4096 integer",
-      "duration": 6,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 4096 string",
-      "duration": 18,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 8192 createFloats",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 8192 createIntegers",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -850,21 +850,21 @@
     {
       "title": "float",
       "fullTitle": "sorting 8192 float",
-      "duration": 27,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 8192 integer",
-      "duration": 8,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 8192 string",
-      "duration": 14,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
@@ -885,301 +885,301 @@
     {
       "title": "createStrings",
       "fullTitle": "sorting 16384 createStrings",
-      "duration": 16,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 16384 float",
-      "duration": 69,
+      "duration": 38,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 16384 integer",
-      "duration": 26,
+      "duration": 14,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 16384 string",
-      "duration": 38,
+      "duration": 21,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 32768 createFloats",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 32768 createIntegers",
-      "duration": 3,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 32768 createStrings",
-      "duration": 37,
+      "duration": 40,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 32768 float",
-      "duration": 114,
+      "duration": 92,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 32768 integer",
-      "duration": 36,
+      "duration": 37,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 32768 string",
-      "duration": 67,
+      "duration": 70,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 65536 createFloats",
-      "duration": 24,
+      "duration": 16,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 65536 createIntegers",
-      "duration": 20,
+      "duration": 18,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 65536 createStrings",
-      "duration": 86,
+      "duration": 65,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 65536 float",
-      "duration": 291,
+      "duration": 264,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 65536 integer",
-      "duration": 102,
+      "duration": 139,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 65536 string",
-      "duration": 125,
+      "duration": 98,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 131072 createFloats",
-      "duration": 33,
+      "duration": 27,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 131072 createIntegers",
-      "duration": 42,
+      "duration": 31,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 131072 createStrings",
-      "duration": 167,
+      "duration": 155,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 131072 float",
-      "duration": 805,
+      "duration": 562,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 131072 integer",
-      "duration": 192,
+      "duration": 165,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 131072 string",
-      "duration": 315,
+      "duration": 255,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 262144 createFloats",
-      "duration": 77,
+      "duration": 71,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 262144 createIntegers",
-      "duration": 120,
+      "duration": 59,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 262144 createStrings",
-      "duration": 301,
+      "duration": 287,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 262144 float",
-      "duration": 1538,
+      "duration": 1355,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 262144 integer",
-      "duration": 393,
+      "duration": 304,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 262144 string",
-      "duration": 622,
+      "duration": 532,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 524288 createFloats",
-      "duration": 135,
+      "duration": 129,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 524288 createIntegers",
-      "duration": 118,
+      "duration": 129,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 524288 createStrings",
-      "duration": 541,
+      "duration": 669,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 524288 float",
-      "duration": 3024,
+      "duration": 3693,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 524288 integer",
-      "duration": 713,
+      "duration": 639,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 524288 string",
-      "duration": 1737,
+      "duration": 1267,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createFloats",
       "fullTitle": "sorting 1048576 createFloats",
-      "duration": 330,
+      "duration": 227,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createIntegers",
       "fullTitle": "sorting 1048576 createIntegers",
-      "duration": 322,
+      "duration": 239,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "createStrings",
       "fullTitle": "sorting 1048576 createStrings",
-      "duration": 1348,
+      "duration": 1427,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "float",
       "fullTitle": "sorting 1048576 float",
-      "duration": 9608,
+      "duration": 9789,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "integer",
       "fullTitle": "sorting 1048576 integer",
-      "duration": 2303,
+      "duration": 1925,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "string",
       "fullTitle": "sorting 1048576 string",
-      "duration": 3702,
+      "duration": 3115,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "init read 32MB",
-      "duration": 17,
+      "duration": 18,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "init read 64MB",
-      "duration": 64,
+      "duration": 68,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "create bigger variables 128MB",
-      "duration": 616,
+      "duration": 688,
       "currentRetry": 0,
       "err": {}
     },
@@ -1200,70 +1200,70 @@
     {
       "title": "32MB",
       "fullTitle": "write 32MB",
-      "duration": 33,
+      "duration": 27,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "write 64MB",
-      "duration": 58,
+      "duration": 47,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "write 128MB",
-      "duration": 1068,
+      "duration": 950,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "write 256MB",
-      "duration": 2211,
+      "duration": 1697,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "write 512MB",
-      "duration": 4641,
+      "duration": 3331,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "copy 32MB",
-      "duration": 856,
+      "duration": 591,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "copy 64MB",
-      "duration": 1280,
+      "duration": 1253,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "copy 128MB",
-      "duration": 443,
+      "duration": 246,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "copy 256MB",
-      "duration": 824,
+      "duration": 509,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "copy 512MB",
-      "duration": 3044,
+      "duration": 1872,
       "currentRetry": 0,
       "err": {}
     },
@@ -1277,70 +1277,70 @@
     {
       "title": "64MB",
       "fullTitle": "read 64MB",
-      "duration": 45,
+      "duration": 42,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "read 128MB",
-      "duration": 216,
+      "duration": 6470,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "read 256MB",
-      "duration": 8645,
+      "duration": 1209,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "512MB",
       "fullTitle": "read 512MB",
-      "duration": 2421,
+      "duration": 4123,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "32MB",
       "fullTitle": "delete 32MB",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "64MB",
       "fullTitle": "delete 64MB",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "delete 128MB",
-      "duration": 27,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "128MB",
       "fullTitle": "delete 128MB",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "delete 256MB",
-      "duration": 44,
+      "duration": 45,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "256MB",
       "fullTitle": "delete 256MB",
-      "duration": 44,
+      "duration": 33,
       "currentRetry": 0,
       "err": {}
     },
@@ -1354,7 +1354,7 @@
     {
       "title": "512MB",
       "fullTitle": "delete 512MB",
-      "duration": 112,
+      "duration": 98,
       "currentRetry": 0,
       "err": {}
     }
