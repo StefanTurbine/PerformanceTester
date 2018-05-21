@@ -1,5 +1,11 @@
-'use strict';
+const express = require('express');
 
-require('./network.test').run();
-require('./performance.test').run();
-require('./io.test').run();
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('HelloWorld');
+});
+
+app.listen(3000, () => {
+    console.log("Hello World on Port 3000");
+});

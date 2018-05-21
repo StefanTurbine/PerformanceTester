@@ -5,8 +5,9 @@
   "description": "node.js-based performance testing",
   "main": "index.js",
   "scripts": {
-    "local": "mocha src --recursive --timeout 120000 --max-old-space-size=4096",
-    "test": "mocha src --recursive -R JSON  --timeout 120000 --max-old-space-size=4096"
+    "local": "mocha test --recursive --timeout 120000 --max-old-space-size=4096",
+    "test": "mocha test --recursive -R JSON  --timeout 120000 --max-old-space-size=4096",
+    "start": "node src/index.js"
   },
   "keywords": [
     "node",
@@ -16,6 +17,7 @@
   "author": "Stefan Tübben",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.17.0",
     "superagent": "^3.8.3"

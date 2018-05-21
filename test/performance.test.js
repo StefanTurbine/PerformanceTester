@@ -13,7 +13,7 @@ const sampleSizes = [
     524288,
     1048576
 ];
-const arrays = [];
+
 module.exports.run = function () {
     describe("sorting", () => {
         for (const sampleSize of sampleSizes) {
@@ -23,7 +23,6 @@ module.exports.run = function () {
         }
     });
 };
-
 
 function testArraySorting(arraySize) {
     let floatArray;
@@ -59,7 +58,7 @@ function testArraySorting(arraySize) {
 
 function generateRandomString(maxLength = 15, chars) {
     chars = chars || "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    const stringLength = Math.random() * maxLength;
+    const stringLength = Math.random() * maxLength + 1;
     let result = "";
     while (result.length <= stringLength) {
         result += chars.charAt(Math.random() * chars.length)
